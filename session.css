@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    background-image: url("login/session/images/bg.jpg");
+    background-image: url("images/bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -14,6 +14,7 @@ body {
 .heading {
     color: rgba(0, 0, 0, 0.452);
     text-decoration: underline;
+    margin-left: 25px;
 }
 
 /* Style the search box inside the navigation bar */
@@ -24,11 +25,11 @@ body {
     justify-content: flex-start;
     padding-left: 10px;
     margin-left: 6px;
-    margin-right: 26%;
+    margin-right: 33%;
     margin-top: 22px;
     opacity: 1;
     cursor: auto;
-    width: calc(100% - 134px);
+    width: 500px;
     max-width: 549px;
     background-color: #b5b4b4c8;
     border: 0px;
@@ -74,7 +75,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: large;
-    margin-top: 15px;
+    margin-top: 18px;
     margin-left: 2px;
     margin-right: 2px;
     margin-bottom: 12px;
@@ -85,6 +86,10 @@ body {
 .tags a:hover {
     background-color: #3f99a09c;
     color: rgb(0, 0, 0);
+}
+
+.tags :active {
+    background-color: #3f99a0;
 }
 
 /* Styling the area of the slides */
@@ -449,7 +454,7 @@ h2 {
     left: 0;
     width: 100%;
     height: 100px;
-    background: url("login/session/images/wavw.png");
+    background: url("images/wavw.png");
     background-size: 1000px 100px;
 }
 

@@ -1,0 +1,203 @@
+html,
+body {
+  margin: 0%;
+  background-color: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.doodles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/cinebuzz/login/session/images/bg.jpg") repeat 0 0;
+}
+
+.heading {
+  color: rgba(255, 255, 255, 0.452);
+  text-decoration: underline;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  display: flex;
+  flex-flow: row nowrap;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  padding-left: 50px;
+  margin-left: 5%;
+  margin-right: 15%;
+  margin-top: 15px;
+  opacity: 1;
+  cursor: auto;
+  width: calc(100% - 134px);
+  max-width: 549px;
+  background-color: #5d5d741b;
+  border: 0px;
+  border-radius: 20px;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 40px;
+  width: calc(100% - 50px);
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+  color: black;
+}
+
+::placeholder {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  display: flex;
+  margin-top: 16px;
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0), #0b0317b5);
+  overflow: hidden;
+  padding-left: 20px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.logo {
+  border-left: 20px;
+}
+
+/* Style the links inside the navigation bar */
+.tags a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;
+  margin-top: 12px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+/* Change the color of links on hover */
+.tags a:hover {
+  background-color: #35284a8c;
+  color: rgb(0, 0, 0);
+}
+
+.movietitle {
+  background-image: linear-gradient(to top left, rgb(49, 75, 79), #56797a, rgba(0, 0, 0, 0.152));
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+
+.title {
+  color: rgb(0, 0, 0);
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 8px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 45px;
+}
+
+.buttonB {
+  background-color: #3f99a051;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 10px;
+  margin: 6px 6px;
+  padding: 5px;
+  cursor: pointer;
+  border-color: none;
+  border-style: none;
+}
+
+.botton4 {
+  border-radius: 12px;
+  padding: 5px;
+  margin: 4px;
+  border: 2px;
+}
+
+.dates {
+  border-style: none;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.theatrelist {
+  margin: 2%;
+  color: black;
+  background-color: #fdfdff00;
+  padding: 3%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.theatre {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  display: flex;
+  padding-LEFT: 5%;
+  margin-bottom: 43PX;
+}
+
+.showtimes1 {
+  padding-left: 10%;
+  margin-right: 100px;
+  background-color: transparent;
+}
+
+.showtimes2 {
+  padding-left: 17.4%;
+  background-color: transparent;
+}
+
+.showtimes3 {
+  padding-left: 25%;
+  background-color: transparent;
+}
+
+.green {
+  background-color: #3f99a0;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 3px;
+  border-color: black;
+  margin-right: 25px;
+}
+
+h3 {
+  padding-top: 4px;
+}
